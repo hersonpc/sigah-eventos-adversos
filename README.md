@@ -1,8 +1,8 @@
-# SIGAH Eventos Adversos
+# SIGAH Segurança do Paciente
 
-Sistema Integrado de Gestão e Análise Hospitalar / Eventos Adversos  
+Sistema Integrado de Gestão e Análise Hospitalar / Segurança do Paciente  
   
-Sistema para gerenciamento das notificações de eventos adversos.
+Sistema para gerenciamento das notificações de incidentes.
 
 ## Resumo
 
