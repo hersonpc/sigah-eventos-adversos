@@ -1,6 +1,6 @@
-# SIGAH Segurança do Paciente
+# SIGAH - **Segurança do Paciente**
 
-Sistema Integrado de Gestão e Análise Hospitalar / Segurança do Paciente  
+Sistema Integrado de Gestão e Análise Hospitalar - Segurança do Paciente  
   
 Sistema para gerenciamento das notificações de incidentes.
 
