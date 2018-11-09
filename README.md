@@ -15,3 +15,19 @@ hospitalar.
 ## Diagrama de caso de uso  
 
 ![Diagrama de caso de uso](/uml/UseCasePrincipal.png)
+
+
+## Modelo conceitual
+
+![Modelo conceitual](/uml/modeloConceitual.jpg)
+
+## Diagrama de classe
+
+![Diagrama de caso de uso](/uml/ClassDiagram.png)
+
+## Ferramentas utilizadas
+
+* [GanttProject](https://www.ganttproject.biz/download/free)
+* [Visual Studio Code](https://code.visualstudio.com/Download)
+* [Astah](http://astah.net)
+* [BrModelo](http://www.sis4.com/brModelo/)
