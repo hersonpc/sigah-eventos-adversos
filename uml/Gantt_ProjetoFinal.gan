@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="SHNEA" company="Universidade Estácio de Sá" webLink="http://" view-date="2018-08-01" view-index="0" gantt-divider-location="408" resource-divider-location="300" version="2.8.9" locale="pt_BR">
+    <description><![CDATA[Universidade Estácio de Sá
+TCC - Sistema de Informação
+
+Aluno: Herson Pereira Cordeiro de Melo
+Matricula: 201508175217]]></description>
+    <view zooming-state="default:10" id="gantt-chart">
+        <field id="tpd3" name="Nome" width="263" order="0"/>
+        <field id="tpd4" name="Data inicial" width="73" order="1"/>
+        <field id="tpd5" name="Data final" width="68" order="2"/>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nome" width="210" order="0"/>
+        <field id="1" name="Função" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" name="1 Elaboração do projeto do software" color="#8cb6ce" meeting="false" start="2018-08-27" duration="52" complete="100" thirdDate="2018-08-13" thirdDate-constraint="0" expand="true">
+            <notes><![CDATA[Primeira fase do TCC, elaboração do projeto do software]]></notes>
+            <task id="4" name="1.1 Proposta do projeto" color="#8cb6ce" meeting="false" start="2018-08-27" duration="15" complete="100" thirdDate="2018-08-13" thirdDate-constraint="0" expand="true">
+                <depend id="6" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="6" name="1.2 Caracterização da empresa" color="#8cb6ce" meeting="false" start="2018-09-17" duration="5" complete="100" thirdDate="2018-08-13" thirdDate-constraint="0" expand="true">
+                <depend id="8" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="8" name="1.3 O sistema atual" color="#8cb6ce" meeting="false" start="2018-09-24" duration="10" complete="100" thirdDate="2018-08-13" thirdDate-constraint="0" expand="true">
+                <depend id="10" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="10" name="1.4 Entrega do sistema proposto" color="#8cb6ce" meeting="false" start="2018-10-08" duration="10" complete="100" thirdDate="2018-10-08" thirdDate-constraint="0" expand="true">
+                <depend id="13" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="13" name="1.5 Conclusão da fase de projeto" color="#8cb6ce" meeting="false" start="2018-10-22" duration="12" complete="100" thirdDate="2018-10-22" thirdDate-constraint="0" expand="true">
+                <depend id="16" type="2" difference="90" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="16" name="2 Desenvolvimento do software" color="#8cb6ce" meeting="false" start="2019-03-13" duration="35" complete="100" thirdDate="2018-11-07" thirdDate-constraint="0" expand="true">
+            <task id="20" name="2.1 Modelagem de estrutura lógica" color="#8cb6ce" meeting="false" start="2019-03-13" duration="23" complete="100" thirdDate="2019-01-30" thirdDate-constraint="0" expand="true">
+                <task id="33" name="2.1.1 Diagramas de sequencia" color="#8cb6ce" meeting="false" start="2019-03-13" duration="4" complete="100" thirdDate="2019-03-13" thirdDate-constraint="0" expand="true">
+                    <depend id="36" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="36" name="2.1.2 Projeto de interfaces" color="#8cb6ce" meeting="false" start="2019-03-19" duration="5" complete="100" thirdDate="2019-03-13" thirdDate-constraint="0" expand="true">
+                    <depend id="40" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="40" name="2.1.3 Diagramas de estado" color="#8cb6ce" meeting="false" start="2019-03-26" duration="4" complete="100" thirdDate="2019-03-13" thirdDate-constraint="0" expand="true">
+                    <depend id="44" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="44" name="2.1.4 Diagramas de atividades" color="#8cb6ce" meeting="false" start="2019-04-01" duration="4" complete="100" thirdDate="2019-03-13" thirdDate-constraint="0" expand="true">
+                    <depend id="48" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="48" name="2.1.5 Diagramas de componentes" color="#8cb6ce" meeting="false" start="2019-04-05" duration="2" complete="100" thirdDate="2019-03-13" thirdDate-constraint="0" expand="true">
+                    <depend id="52" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="52" name="2.1.6 Diagrama de classes" color="#8cb6ce" meeting="false" start="2019-04-09" duration="4" complete="100" thirdDate="2019-03-13" thirdDate-constraint="0" expand="true">
+                    <depend id="58" type="2" difference="0" hardness="Strong"/>
+                </task>
+            </task>
+            <task id="58" name="2.2 Modelagem de estrutura de dados" color="#8cb6ce" meeting="false" start="2019-04-15" duration="12" complete="100" thirdDate="2019-03-13" thirdDate-constraint="0" expand="true">
+                <task id="63" name="2.2.1 Modelo físico de dados" color="#8cb6ce" meeting="false" start="2019-04-15" duration="6" complete="100" thirdDate="2019-03-13" thirdDate-constraint="0" expand="true">
+                    <depend id="68" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="68" name="2.2.2 Estrutura do banco de dados" color="#8cb6ce" meeting="false" start="2019-04-23" duration="6" complete="100" thirdDate="2019-04-10" thirdDate-constraint="0" expand="true">
+                    <depend id="104" type="2" difference="0" hardness="Strong"/>
+                </task>
+            </task>
+        </task>
+        <task id="72" name="3 Documentação da iniciativa" color="#8cb6ce" meeting="false" start="2019-05-01" duration="10" complete="100" thirdDate="2019-01-21" thirdDate-constraint="0" expand="true">
+            <task id="104" name="3.1 Justificativas e conclusões" color="#8cb6ce" meeting="false" start="2019-05-01" duration="5" complete="100" thirdDate="2019-01-21" thirdDate-constraint="0" expand="true">
+                <depend id="111" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="111" name="3.2 Revisão e normatização" color="#8cb6ce" meeting="false" start="2019-05-08" duration="5" complete="100" thirdDate="2019-01-21" thirdDate-constraint="0" expand="true"/>
+        </task>
+    </tasks>
+    <resources>
+        <resource id="3" name="Herson Melo" function="Default:0" contacts="hersonpc@gmail.com" phone=""/>
+    </resources>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles roleset-name="SoftwareDevelopment"/>
+</project>
